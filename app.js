@@ -2,7 +2,7 @@ var exec = require('child_process').exec;
 
 var minutes = Math.floor((Math.random() * 30) + 1);
 function myFunction() {
-    exec('svn up ./js/bertea_e', function(error, stdout, stderr) {
+    exec('svn up ./js/canut_a', function(error, stdout, stderr) {
             var myDate = new Date();
             console.log('=====================');
             console.log(stdout);
